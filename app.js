@@ -19,7 +19,7 @@ redis_client.on('error', () => {
 
 
 
-// Set the redis data for the string datatype
+// Set the redis data for the string datatype.
 const setStringData = async(key,value) => {
     const redis_key = key;
     const redis_value = value;
