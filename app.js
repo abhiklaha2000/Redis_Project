@@ -7,7 +7,7 @@ const redis = require('ioredis-rejson');
 const redis_client = new redis({
     host: 'redis-12857.c305.ap-south-1-1.ec2.redns.redis-cloud.com', // Redis host
     port: 12857,        // Redis port
-    password: 'PDdegTEgy2q9ArFuwCpuOVz6h6GZEQhM', // Uncomment and set if using password-protected Redis
+    password: 'Dummy-password', // Change this password with the original password
   });
 // Log a message when the Redis connection is successfully established
 redis_client.on('connect', () => {
